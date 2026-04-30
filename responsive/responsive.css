@@ -1,0 +1,471 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.container-fluid
+{
+    width: 100%;
+}
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+.row::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+.responsive
+{
+    width: 100%;
+    height: auto;
+}
+[class^="col-"]
+{
+    float: left;
+    padding: 10px;
+}
+@media screen and (max-width: 755px) {
+   .col-xs-1{width: 8.33%;}
+   .col-xs-2{width: 16.66%;}
+   .col-xs-3{width: 25%;}
+   .col-xs-4{width: 33.33%;}
+   .col-xs-5{width: 41.66%;}
+   .col-xs-6{width: 50%;}
+   .col-xs-7{width: 58.33%;}
+   .col-xs-8{width: 66.66%;}
+   .col-xs-9{width: 75%;}
+   .col-xs-10{width: 83.33%;}
+   .col-xs-11{width: 91.66%;}
+   .col-xs-12{width: 100%;}
+   
+}
+
+@media screen and (min-width: 768px) {
+   .col-md-1{width: 8.33%;}
+   .col-md-2{width: 16.66%;}
+   .col-md-3{width: 25%; }
+   .col-md-4{width: 33.33%;}
+   .col-md-5{width: 41.66%;}
+   .col-md-6{width: 50%; }
+   .col-md-7{width: 58.33%;}
+   .col-md-8{width: 66.66%;}
+   .col-md-9{width: 75%;}
+   .col-md-10{width: 83.33%;}
+   .col-md-11{width: 91.66%;}
+   .col-md-12{width: 100%;}
+}
+
+@media screen and (min-width: 992px) {
+   .col-lg-1{width: 8.33%;}
+   .col-lg-2{width: 16.66%;}
+   .col-lg-3{width: 25%;}
+   .col-lg-4{width: 33.33%;}
+   .col-lg-5{width: 41.66%;}
+   .col-lg-6{width: 50%;}
+   .col-lg-7{width: 58.33%;}
+   .col-lg-8{width: 66.66%;}
+   .col-lg-9{width: 75%;}
+   .col-lg-10{width: 83.33%;}
+   .col-lg-11{width: 91.66%;}
+   .col-lg-12{width: 100%;}
+   
+}
+@media screen and (min-width: 1200px) {
+   .col-xl-1{width: 8.33%;}
+   .col-xl-2{width: 16.66%;}
+   .col-xl-3{width: 25%;}
+   .col-xl-4{width: 33.33%;}
+   .col-xl-5{width: 41.66%;}
+   .col-xl-6{width: 50%;}
+   .col-xl-7{width: 58.33%;}
+   .col-xl-8{width: 66.66%;}
+   .col-xl-9{width: 75%;}
+   .col-xl-10{width: 83.33%;}
+   .col-xl-11{width: 91.66%;}
+   .col-xl-12{width: 100%;}
+
+}
+@media screen and (max-width:700px){
+
+
+    nav
+    {
+       /* display: flex;
+       flex-wrap: wrap;
+       justify-content: center; */
+       margin: 0 auto;
+    }
+    body
+    {
+        width: 100%;
+    }
+    
+    
+     header nav .button-group .btn-group 
+     {
+        padding-top: 40px;
+        display: block;
+     }
+
+    nav .button-group .item
+    {
+       display: none;
+    }
+    nav .button-group , .join-now
+    {
+       display: none;
+    }
+
+
+
+    .hero
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+    }
+   
+    .hero .right-sid
+    {
+        height: auto;
+        padding-top: 0px;
+        margin-top: 10px;
+
+    }
+    .hero .right-sid img
+    {
+        width: 100%;
+        object-fit: fill;
+        height: auto;
+        
+    }
+      .hero .left-sid .title
+    {
+        
+        h1{
+            padding-left: 60px;
+            font-size: 40px;
+            padding:0 30px;
+            
+        }
+        
+    }
+
+    section .row
+    {
+        width: 100%;
+    }
+    .row-1 
+    {
+        gap:none ;
+    }
+
+    section .row .row-1
+    {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 2.5em;
+    }
+    section .row .row-1 h1
+    {
+        width: 100%;
+        font-size:1.5em;
+    }
+
+
+    .search-box
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .search-box .search input 
+    {
+        margin: 0 40px;
+        width: 100%;
+    }
+
+     section .section-nav
+     {
+        width: 100%;
+        height: auto;
+     }
+     section .section-nav .logo
+     {
+        width: 100%;
+        height: auto;
+     }
+    section .section-nav .logo .respons
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 2em;
+        row-gap: 30px;
+        padding: 20px;
+        width: 60%;
+        height: auto;
+    }
+
+    .row-2 i 
+    {
+        display: block;
+    }
+
+    section .frame a i 
+    {
+        display: block;
+    }
+
+   .row-3 .icons-row .icons-box .icon a
+   {
+    gap: 0;
+    padding: 0;
+    justify-content: center;
+   }
+   .row-3 .btn 
+   {
+    margin-top: 220px;
+   }
+
+   .hero .left-sid .menu
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        gap: 20px;
+
+    } 
+    .hero .left-sid .menu .items
+    {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        font-size: 1.5em;
+    }
+
+    .hero .left-sid .menu .items a 
+    {
+        padding: 1em;
+        font-size: 24px;
+        font-weight: 700;
+    }
+  
+    .row-4 
+    {
+        width: 100%;
+        height: 100vh;
+        background-color: #475569;
+        margin: 120px auto;
+    }
+
+    .row-4 .col 
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+     .row-4 .col-left
+    {     
+        width: 100%;
+        text-align: start;
+    }
+
+    .row-4 .col-left .list
+    {
+        width: 100%;
+        
+        
+    }
+      
+    .row-4 .col-right
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .row-4 .text 
+   {
+    display: flex;
+    flex-direction: column;
+   } 
+    
+
+    .row-4 .col-right img 
+    {
+        
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .row-5 .row-five
+    {
+       display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        gap: 10px;
+        margin: 0 auto;
+
+        .col-left
+        {
+            margin: 0 auto;
+            width: 80%;
+            height: auto;
+            margin: 0 auto;
+            img 
+            {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                margin: 0 auto;
+            }
+        }
+
+        .col-right
+        {
+            width: 100%;
+            height: auto;
+            .right-para
+            {
+                font-size: 24px;
+                width: 100%;
+            }
+        }
+    }
+
+  
+    .row-6 .column-right        
+    {
+    overflow-x: scroll;
+    }
+    .row-6 .column
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .row-6 .column-left
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .row-6.column-right
+    {
+        width: 100%;
+    }
+    .row-6 .column-right
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .row-7  .pic-box
+    {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .row-7 .content-box-2
+    {
+        width: 100%;
+        height: auto;
+       display: flex;
+       flex-direction: column;
+    }
+    .row-7 .user-details p 
+    {
+        width: auto;
+    }
+    .row-7 .column-right 
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .row-8 
+    {
+        display: flex;
+        flex-direction: column;
+
+        .left-sid
+        {
+            width: 100%;
+
+            .titel 
+            {
+                width: 100%;
+                margin-left: 0 auto;
+
+                p 
+                {
+                    width: 100%;
+                }
+
+        
+            }
+        button 
+       {
+           font-size: 30px;
+       }
+        }
+        .right-sid
+        {
+            width: 100%;
+
+            img 
+            {
+                width: 100%;
+                height: 80%;
+            }
+        }
+    }
+
+    .row-8 .left-sid .btn button
+    {
+        width: 100%;
+        font-weight: 700;
+    }
+}
+/* ======================== */
+
+        /* FOOTER  */
+
+ footer .row .row-1 .column
+ {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+  footer .row .row-2
+  {
+    display: flex;
+    flex-direction: column;
+    row-gap:  30px;
+  }
+
+  footer .row-3 p 
+  {
+    width: 100%;
+    text-align: justify;
+  }
