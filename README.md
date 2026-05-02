@@ -34,7 +34,6 @@ CSS3 (Flexbox)
 Font Awesome Icons
 
 Google Fonts
-##https://github.com/shamsshahyar6-create/Landing-page/tree/main
 
 ## 📂 Project Structure
 
