@@ -224,7 +224,7 @@
 
     section .frame a i 
     {
-        display: block;
+        display: none;
     }
 
    .row-3 .icons-row .icons-box .icon a

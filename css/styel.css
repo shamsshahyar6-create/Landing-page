@@ -492,7 +492,7 @@ button
 
     .pic-box-5
     {
-        background-image: url(/..imges/pic5.jpg);
+        background-image: url(../imges/pic5.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
